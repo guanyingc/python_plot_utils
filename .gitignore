@@ -2,5 +2,4 @@
 .DS_Store
 *.gif
 *.pdf
-*.png
 __pycache__
