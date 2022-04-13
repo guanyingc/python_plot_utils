@@ -12,7 +12,7 @@ def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument('conf_file', default='', help='path of the config')
     parser.add_argument('--save_prefix', default='', help='append string to the save filename')
-    parser.add_argument('--format', default='pdf', help='overwrite the save figure format, pdf|png|jpg')
+    parser.add_argument('--format', help='overwrite the save figure format, pdf|png|jpg')
     args = parser.parse_args()
     # args, unknown = parser.parse_known_args()
     return args
