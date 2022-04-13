@@ -4,8 +4,8 @@ import sys
 import numpy as np
 from plot_agent import PlotAgent
 
-from IPython.core import ultratb
-sys.excepthook = ultratb.FormattedTB(call_pdb=True)
+#from IPython.core import ultratb
+#sys.excepthook = ultratb.FormattedTB(call_pdb=True)
 
 
 def parse_arguments():
